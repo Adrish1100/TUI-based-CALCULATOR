@@ -95,18 +95,27 @@ The layout is hardcoded and may break on different terminal sizes.
 5. Mathematical Edge Cases
 Floating-point remainder (fmod) may not match user expectations
 Power suffix logic (ST/ND/RD/TH) is not fully correct
-📁 File Structure
 
-.
+📁 File Structure
 ├── calculator.c    # Main source file
 └── README.md       # Documentation
+
 🔮 Future Plans
-[ ] Replace scanf() with safer input handling
-[ ] Improve UI portability (remove gotoxy)
-[ ] Add calculation history
-[ ] Support full expression input (e.g., 2 + 3 * 5)
-[ ] Modularize into multiple files
-[ ] Improve error handling (no abrupt exits)
+
+[1] Replace scanf() with safer input handling
+
+[2] Improve UI portability (remove gotoxy)
+
+[3] Add calculation history
+
+[4] Support full expression input (e.g., 2 + 3 * 5)
+
+[5] Modularize into multiple files
+
+[6] Improve error handling (no abrupt exits)
+
 👤 Author
-Adrish Datta
+
+ Adrish Datta
+
 Made with C using structured programming and terminal UI concepts.
